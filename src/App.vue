@@ -1,11 +1,20 @@
 <template>
-  <div></div>
+  <div>
+    <TheHeader></TheHeader>
+  </div>
 </template>
 
 <script>
-
+import TheHeader from './components/TheHeader.vue';
+export default{
+  name:'App',
+  components:{
+    TheHeader,
+    
+}
+}
 </script>
 
-<style>
-
+<style lang="scss">
+@import './assets/scss/style.scss';
 </style>
