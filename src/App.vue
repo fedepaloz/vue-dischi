@@ -14,6 +14,7 @@ export default {
   components: {
     TheHeader : TheHeader,
     TrackSection : TrackSection,
+    
   },
 };
 </script>
